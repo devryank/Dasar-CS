@@ -8,8 +8,16 @@ namespace Dasar
 {
     public class User
     {
-
-        public bool Verified { get; set; }
+        public User()
+        {
+            Console.WriteLine("User being created");
+        }
+        public User(string firstName, string lastName)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+        }
+        public bool Verified { get; set; } = false;
         public string FullName
         {
             get
@@ -20,8 +28,8 @@ namespace Dasar
             {
             }
         }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public string FirstName { get;}
+        public string LastName { get; }
 
         public virtual void HelloToConsole()
         {
