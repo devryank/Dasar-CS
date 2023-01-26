@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Dasar
 {
-    public abstract class User
+    public class User
     {
 
         public bool Verified { get; set; }
@@ -23,6 +23,9 @@ namespace Dasar
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        public abstract void HelloToConsole();  
+        public virtual void HelloToConsole()
+        {
+            Console.WriteLine("Hi, i'm general user, my name is " + FullName);
+        } 
     }
 }

@@ -20,8 +20,18 @@ namespace Dasar
         {
             Student me = new Student();
             me.FirstName = "Jingle";
-            me.Verified = true;
-            me.HelloToConsole();
+
+            Teacher you = new Teacher();
+            you.FirstName = "Sally";
+
+            User general = new User();
+            general.FirstName = "Ryan";
+
+            List<User> users = new List<User>() { me, you, general };
+            foreach(User u in users)
+            {
+                u.HelloToConsole();
+            }
         }
     }
 }
