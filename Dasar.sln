@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dasar", "Dasar\Dasar.csproj", "{1192F39A-6D9A-403C-956B-92B7C1286DBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1192F39A-6D9A-403C-956B-92B7C1286DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1192F39A-6D9A-403C-956B-92B7C1286DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1192F39A-6D9A-403C-956B-92B7C1286DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1192F39A-6D9A-403C-956B-92B7C1286DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {832FE56C-8D6A-4E14-81F1-187C36AFDFFA}
+	EndGlobalSection
+EndGlobal
