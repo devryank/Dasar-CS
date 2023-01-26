@@ -22,5 +22,10 @@ namespace Dasar
         }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+
+        public virtual void HelloToConsole()
+        {
+            Console.WriteLine("Hi, my name is " + FullName);
+        }
     }
 }

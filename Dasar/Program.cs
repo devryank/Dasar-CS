@@ -21,7 +21,7 @@ namespace Dasar
             Student me = new Student();
             me.FirstName = "Jingle";
             me.Verified = true;
-            Console.WriteLine(me.FullName);
+            me.HelloToConsole();
         }
     }
 }
